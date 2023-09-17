@@ -1,0 +1,84 @@
+/* Header Styles */
+header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Set the background image URL here */
+    background-image: url("flexzone.jpg"); /* Replace with your image path */
+    height: 400px; /* Adjust the height as needed */
+  }
+  
+  /* Gray Overlay Styles */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the desired level of opacity */
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #000; /* Black background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2; /* Place the navbar above the overlay */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  nav:hover {
+    background-color: #111; /* Darker black background on hover */
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust spacing between menu items as needed */
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  a:hover {
+    color: #ff4500; /* Orange hover color */
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust the maximum width for your logo */
+    margin-right: 10px; /* Adjust spacing as needed */
+  }
+  
+  .logo-text {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #fff; /* Adjust text color as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  
+  .brand {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #fff; /* Text color for "FLEXZONE" */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  
