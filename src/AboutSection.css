@@ -1,0 +1,81 @@
+/* AboutSection.css */
+.about-section {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color */
+  padding: 100px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.trainers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.trainer-card {
+  background-color: #fff; /* White background for cards */
+  color: #000; /* Black text color */
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  
+}
+
+.trainer-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.trainer-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* AboutSection.css */
+/* ...previous styles */
+
+/* AboutSection.css */
+/* ...previous styles */
+
+.user-experiences-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.user-experience {
+  background-color: #fff; /* White background for cards */
+  color: #000; /* Black text color */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.user-image img {
+  max-width: 100px; /* Adjust image width as needed */
+  height: auto;
+  border-radius: 50%;
+}
+
+.user-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+  
