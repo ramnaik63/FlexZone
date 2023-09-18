@@ -1,16 +1,18 @@
 import React from 'react';
 import './Header.css'
+import Home from './home';
 
 function Header() {
  
 
     return (
-        <header >
+      <header >
+          <Home/>
           <div className='overlay'></div> {/* Gray overlay */}
           <nav>
             <div className="logo">
               <img src="flexzonelogo.png" alt="FlexZone Logo" />
-              <span className="logo-text">Flex Zone</span>
+              <span className="logo-text">FlexZone</span>
             </div>
             <ul>
               <li><a href="/">Home</a></li>

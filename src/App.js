@@ -1,21 +1,14 @@
 import React from 'react';
 import Header from './Header';
-import HeroSection from './HeroSection';
-import AboutSection from './AboutSection';
-import ServicesSection from './ServicesSection';
-import ContactSection from './ContactSection';
 import Footer from './Footer';
+import Home from './home';
 
 function App() {
   return (
     <div className="App">
       <Header />
       
-      <HeroSection />
-      <AboutSection />
-      <ServicesSection />
-      <ContactSection />
-      <Footer />
+      <Footer/>
     </div>
   );
 }

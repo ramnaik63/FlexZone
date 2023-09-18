@@ -1,0 +1,46 @@
+/* MotivationalHero.css */
+.motivational-hero {
+    background-image: url('7.jpg'); /* Replace with your motivational image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Text color */
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    font-weight: bolder;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .hero-button {
+    background-color: #ff4500; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #ff6e40; /* Button background color on hover */
+  }
+  

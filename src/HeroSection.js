@@ -1,9 +1,18 @@
-import React from 'react'
+// MotivationalHero.js
+import React from 'react';
 
-const HeroSection = () => {
+import './HeroSection.css'; // Import your CSS file for styling
+
+function HeroSection() {
   return (
-    <div>HeroSection</div>
-  )
+    <div className="motivational-hero">
+      <div className="hero-content">
+        <h1 className="hero-title">Achieve Your Fitness Goals</h1>
+        <p className="hero-subtitle">Transform Your Body and Your Life</p>
+        <button className="hero-button">Get Started</button>
+      </div>
+    </div>
+  );
 }
 
-export default HeroSection
+export default HeroSection;
