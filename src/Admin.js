@@ -10,7 +10,7 @@ function Admin() {
   useEffect(() => {
     // Fetch contact queries from the backend
     axios
-      .get('http://localhost:5000/api/queries')
+      .get('/api/queries')
       .then((response) => {
         setQueries(response.data);
       })

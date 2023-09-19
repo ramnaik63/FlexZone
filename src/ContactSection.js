@@ -21,7 +21,7 @@ function ContactSection() {
 
     // Send form data to the backend to store in the database
     axios
-      .post('http://localhost:5000/api/contact', formData)
+      .post('/api/contact', formData)
       .then((response) => {
         // Handle success, e.g., show a success message to the user
         console.log('Query saved successfully');

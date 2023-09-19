@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer'); // Import nodemailer
 const cors = require('cors')
 const app = express();
+const path =require('path')
 const port = process.env.PORT || 5000;
 const corsOptions = {
     origin: 'http://localhost:3000',
@@ -77,9 +78,11 @@ const contactUsSchema = new mongoose.Schema({
   });
   
   const ContactUsQuery = mongoose.model('ContactUsQuery', contactUsSchema);
-
-// Middleware to parse JSON request bodies
+  
+  // Middleware to parse JSON request bodies
+  const __dirname1 = path.resolve();
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname1, "/build")));
 
 // Nodemailer configuration (replace with your email service credentials)
 const transporter = nodemailer.createTransport({
@@ -89,7 +92,18 @@ const transporter = nodemailer.createTransport({
     pass: 'Teamcookies49*',
   },
 });
+// DEPLOYMENT
+if (process.env.NODE_ENV === "production") {
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname1, "build", "index.html"));
+  });
+} else {
+  app.get("/", (req, res) => {
+    res.send("API running succesfully");
+  });
+}
 
+// DEPLOYMENT
 // Define an API endpoint to handle gym membership submissions
 app.post('/api/submit-membership', async (req, res) => {
   try {

@@ -23,7 +23,7 @@ function GymMembershipForm() {
 
     try {
       // Submit form data to the backend using Axios
-      const response = await axios.post('http://localhost:5000/api/submit-membership', formData);
+      const response = await axios.post('/api/submit-membership', formData);
 
       if (response.status === 200) {
         // Handle successful form submission

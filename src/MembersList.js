@@ -8,7 +8,7 @@ function MembersList() {
   useEffect(() => {
     // Fetch gym membership data from your API using Axios
     axios
-      .get('http://localhost:5000/api/members')
+      .get('/api/members')
       .then((response) => {
         setMembers(response.data);
       })
