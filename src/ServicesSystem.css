@@ -1,0 +1,107 @@
+/* ServicesSection.css */
+.services-section {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    padding: 50px;
+  }
+  
+  .class-schedule,
+  .calendar,
+  .price-cards {
+    background-color: #fff; /* White background for sections */
+    color: #000; /* Black text color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .class-schedule h2,
+  .calendar h2,
+  .price-cards h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000; /* Black text color for section headings */
+  }
+  
+  /* Table styles for class schedule */
+  .class-schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .class-schedule-table th,
+  .class-schedule-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #000; /* Black text color for table cells */
+  }
+  
+  .class-schedule-table th {
+    background-color: #fff; /* White background for table header */
+  }
+  
+  /* Price card styles (same as before) */
+  .price-card {
+    background-color: #fff; /* White background for price cards */
+    color: #000; /* Black text color for price card content */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .price-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000; /* Black text color for price card titles */
+  }
+  
+  .price-card p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000; /* Black text color for price card prices */
+  }
+  
+  /* Customize the rest of the styles as needed */
+
+  .book-schedule {
+    background-color: #ffd700; /* Yellow background */
+    color: #000; /* Black text color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-schedule h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .book-schedule p {
+    font-size: 16px;
+  }
+  
+  .book-button {
+    display: inline-block;
+    background-color: #000; /* Black button background */
+    color: #ffd700; /* Yellow button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #ffd700; /* Yellow button background on hover */
+    color: #000; /* Black button text color on hover */
+  }
+  
