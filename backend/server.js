@@ -7,7 +7,7 @@ const app = express();
 const path =require('path')
 const port = process.env.PORT || 5000;
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'http://flexzone.onrender.com',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 };
