@@ -8,6 +8,9 @@ import AboutSection from './AboutSection';
 import ContactSection from './ContactSection'
 import Footer from './Footer';
 import ServicesSection from './ServicesSection';
+import GymMembershipForm from './GymMembershipForm';
+import AdminPage from './Admin';
+import Admin from './Admin';
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
         <Route path="/about" component={AboutSection} />
         <Route path="/services" component={ServicesSection} />
         <Route path="/contact" component={ContactSection} />
+        <Route path='/subscribe' component={GymMembershipForm}/>
+        <Route path='/admin' component={Admin}/>
         <Footer />
       </div>
     </Router>
